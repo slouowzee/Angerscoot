@@ -1,0 +1,96 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.login__logo {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 20px;
+	display: block;
+}
+
+.login__title {
+	color: var(--color-text);
+	font-size: var(--title-size);
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	font-weight: 400;
+}
+
+.login__input {
+	width: 100%;
+	max-width: 300px;
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.login__button {
+	width: 200px;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	background-color: var(--color-element);
+	color: var(--color-text);
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+	margin: 15px auto;
+	text-align: center;
+	display: block;
+}
+
+.login__button:hover {
+	background-color: var(--color-element-hover);
+	transform: scale(1.03);
+}
+
+.connect {
+	width: 50%;
+	border: 2px solid var(--color-element);
+	margin-top: -15px;
+}
+
+.login__form__sign-up {
+	color: var(--color-text);
+	font-size: var(--text-size);
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.login__form__sign-up-link {
+	color: var(--color-element);
+	font-size: var(--text-size);
+	text-decoration: none;
+}
+
+.more {
+	color: var(--color-element);
+	font-size: var(--text-size);
+	text-decoration: none;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}

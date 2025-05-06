@@ -1,0 +1,145 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.register {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.register__logo {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 20px;
+	display: block;
+}
+
+.register__title {
+	color: var(--color-text);
+	font-size: var(--title-size);
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	font-weight: 400;
+}
+
+.ob {
+	color: var(--color-element);
+	font-size: var(--text-size);
+	text-decoration: none;
+	text-align: center;
+	margin: 4px;
+}
+
+.register__input {
+	width: 100%;
+	max-width: 300px;
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.register__input-nom {
+	width: 100%;
+	max-width: 135px;
+	margin: 10px 12px;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.register__input-prenom {
+	width: 100%;
+	max-width: 135px;
+	margin: 10px 12px;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.register__input-adr {
+	width: 100%;
+	max-width: 200px;
+	margin: 10px 12px 10px 0 ;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.register__input-cp {
+	width: 100%;
+	max-width: 80px;
+	margin: 10px 5px 0 0;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.register__input-ville {
+	width: 100%;
+	max-width: 120px;
+	margin: 10px 10px 10px 0;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.register__button {
+	width: 165px;
+	padding: 10px;
+	border: 1px solid var(--color-element);
+	border-radius: 20px;
+	background-color: var(--color-element);
+	color: var(--color-text);
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.register__button:hover {
+	background-color: var(--color-element-hover);
+	transform: scale(1.03);
+}
+
+.connect {
+	width: 50%;
+	border: 2px solid var(--color-element);
+	margin-top: -15px;
+}
+
+.return {
+	color: var(--color-element);
+	font-size: var(--text-size);
+	text-decoration: none;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}

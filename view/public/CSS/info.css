@@ -1,0 +1,30 @@
+.container-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 90%;
+	gap: 20px;
+}
+
+.intro, .objectif {
+	flex: 1;
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.intro__title, .objectif__title {
+	font-size: 1.8rem;
+	color: var(--color-text);
+}
+.intro__text, .objectif__text {
+	font-size: 1.2rem;
+	color: var(--color-text);
+	line-height: 1.5;
+}
+.connect-info {
+	width:20%;
+	border: 1px solid var(--color-element);
+	margin-top: -15px;
+}

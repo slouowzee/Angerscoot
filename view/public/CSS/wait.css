@@ -1,0 +1,27 @@
+.wait__logo {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 20px;
+	display: block;
+}
+
+.wait__title {
+	color: var(--color-text);
+	font-size: var(--title-size);
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	font-weight: 400;
+}
+
+.wait__text {
+	color: var(--color-text);
+	font-size: var(--text-size);
+	text-decoration: none;
+	text-align: center;
+}
+
+.connect-wait {
+	width: 10%;
+	border: 1px solid var(--color-element);
+}
